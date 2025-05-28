@@ -157,6 +157,7 @@ footer{
         overflow-y: auto;
         padding: 5px;
         font-size: 15px;
+        margin-bottom: 20px;
     }
     .about h1{
         font-size: 25px;
