@@ -162,3 +162,55 @@ footer{
         padding-bottom: 10px;
     }
 }
+@media (min-width:450px) and (max-width: 600px) {
+    header {
+        flex-direction: row;
+        padding: 10px;
+    }
+
+    .hamburger {
+        display: block;
+        font-size: 30px;
+        color: #64ffda;
+        cursor: pointer;
+        padding-right: 20px;
+    }
+
+    .menu-toggle {
+        display: none;
+    }
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background: rgba(10, 25, 47, 0.9);
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+    }
+
+    nav ul li {
+        display: block;
+        padding: 10px 0;
+    }
+
+    .menu-toggle:checked + .hamburger + ul {
+        display: flex;
+    }
+    .about{
+        height: 70vh;
+        top: 100px;
+        left: 78px;
+        overflow-y: auto;
+        padding: 5px;
+        font-size: 15px;
+    }
+    .about p{
+        top: 40px;
+        padding-bottom: 10px;
+    }
+}
+

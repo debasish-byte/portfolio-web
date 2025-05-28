@@ -83,6 +83,7 @@ header nav a:hover {
     background-color: #0a192f;
     box-shadow: 0 0 15px #000000;
     padding-bottom: 20px;
+    overflow-x: auto;
 } 
 .project h1{
     grid-column: 1/3;
@@ -238,4 +239,77 @@ footer{
         font-size: 1rem;
     }
 }
+@media (min-width:450px) and (max-width: 600px) {
+    header {
+        padding: 10px;
+    }
+
+    .hamburger {
+        display: block;
+        font-size: 30px;
+        color: #64ffda;
+        cursor: pointer;
+        padding-right: 20px;
+    }
+
+    .menu-toggle {
+        display: none;
+    }
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background: rgba(10, 25, 47, 0.9);
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+    }
+
+    nav ul li {
+        display: block;
+        padding: 10px 0;
+    }
+
+    .menu-toggle:checked + .hamburger + ul {
+        display: flex;
+    }
+
+    .project {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+        padding: 20px;
+        overflow: auto;
+        margin-top: 20px;
+    }
+
+    .project h1 {
+        font-size: 1.8rem;
+        text-align: center;
+        align-self: center;
+        top: 15px;
+    }
+
+    .project div {
+        width: 100%;
+        padding: 15px;
+        text-align: center;
+    }
+
+    .project img {
+        object-fit: cover;
+        width: 90%;
+        height: 90vh;
+    }
+
+    .project p {
+        font-size: 1rem;
+    }
+}
+
+
 

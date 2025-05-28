@@ -202,3 +202,72 @@ footer{
         font-size: 1.2rem;
     }
 }
+@media (min-width:450px) and (max-width: 600px) {
+    header {
+        flex-direction: row;
+        padding: 10px;
+    }
+
+    .hamburger {
+        display: block;
+        font-size: 30px;
+        color: #64ffda;
+        cursor: pointer;
+        padding-right: 20px;
+    }
+
+    .menu-toggle {
+        display: none;
+    }
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background: rgba(10, 25, 47, 0.9);
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+    }
+
+    nav ul li {
+        display: block;
+        padding: 10px 0;
+    }
+
+    .menu-toggle:checked + .hamburger + ul {
+        display: flex;
+    }
+
+    .Home {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .my-photo img {
+        width: 50%;
+        height: auto;
+        border-radius: 35%;
+        position: static;
+        margin-top: 60px;
+    }
+
+    .Home-content {
+        max-width: 90%;
+        padding: 20px;
+        top: 75vh;
+        left: 28px;
+        font-size: 1rem;
+    }
+
+    .Home-content h1 {
+        font-size: 2rem;
+    }
+
+    .Home-content h2 {
+        font-size: 1.2rem;
+    }
+}
