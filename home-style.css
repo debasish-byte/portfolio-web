@@ -31,6 +31,7 @@ header{
     background-color: #0a192f;
     align-items: center;
     z-index: 1;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 header nav a{
     text-decoration: none;
@@ -79,7 +80,7 @@ header nav a:hover {
 .Home-content{
     position: absolute;
     max-width: 60vw;
-    top: 500px;
+    top: 470px;
     left: 20vw;
     background-color: rgba(10, 25, 47, 0.8);
     padding: 40px;
