@@ -31,7 +31,7 @@ header{
     background-color: #0a192f;
     align-items: center;
     z-index: 1;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 header nav a{
     text-decoration: none;
